@@ -6,4 +6,4 @@ license = "MIT"
 homepage = "https://github.com/damienstanton/ctrs"
 repository = "https://github.com/damienstanton/ctrs"
 description = "Rust implementations and notes on category theory."
-keywords = ["category", "theory", "functional", "haskell", "graph", "bartosz", "milewski", "cpp", "scala"]
+keywords = ["category", "theory", "functional", "haskell", "graph"]
