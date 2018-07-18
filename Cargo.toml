@@ -1,6 +1,6 @@
 [package]
 name = "ctrs"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Damien Stanton <damien.stanton@gmail.com>"]
 license = "MIT"
 homepage = "https://github.com/damienstanton/ctrs"
