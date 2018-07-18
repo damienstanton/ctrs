@@ -1,0 +1,5 @@
+[package]
+name = "ctrs"
+version = "1.0.0"
+authors = ["Damien Stanton <damien.stanton@gmail.com>"]
+license = "MIT"
