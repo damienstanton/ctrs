@@ -5,6 +5,10 @@
 //! What follows in this library is derived from _Category Theory for Programmers_, a long-running blog series by
 //! [Bartosz Milewki](https://twitter.com/BartoszMilewski). A nice "book" created from original blog posts can be found [here](https://github.com/hmemcpy/milewski-ctfp-pdf).
 //!
+//! #### Crate Health
+//!
+//! [![Build Status](https://travis-ci.org/damienstanton/ctrs.svg?branch=master)](https://travis-ci.org/damienstanton/ctrs)
+//!
 //! ### Goals
 //!
 //! My intention is simply to share my learning experience with category theory by using the built-in documentation and

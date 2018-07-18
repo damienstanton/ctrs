@@ -1,9 +1,11 @@
 # Category Theory in Rust
-
+[![Build Status](https://travis-ci.org/damienstanton/ctrs.svg?branch=master)](https://travis-ci.org/damienstanton/ctrs)
 
 ![a category](https://upload.wikimedia.org/wikipedia/commons/f/ff/Category_SVG.svg) ![ferris](https://f001.backblazeb2.com/file/dks-public/ferris.png)
 
-Examples and notes for _Category Theory For Programmers_. See the crate documentation for details.
+Examples and notes for _Category Theory For Programmers_. 
+
+See the crate documentation for details.
 
 © 2018 Damien Stanton
 
