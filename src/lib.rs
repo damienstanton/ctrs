@@ -85,16 +85,16 @@ pub fn id<T>(x: T) -> T {
 /// Our definition of composition may appear confusing at first, but let's break it down. We start by defining generic
 /// types for our two input functions. These are`F` and `G`, respectively. These have a `'static`lifetime because we
 /// have to ensure that the borrow checker does not let these types out of scope before computation has finished. Next,
-/// we have types `Fv` and `Gv`, which represent the return types for each of the functions F and G. Finally, we have
-/// our output type `V`, which is the result we want. We pass thefunctions G and F as parameters `g` and `f`.
+/// we have types `Fv` and `Gv`, which represent the types for the return values for each of the functions F and G.
+/// Finally, we have our output type `V`, which is the result we want. We pass the functions F and G as parameters `f`
+/// and `g`.
 ///
 /// Still with me?
 ///
-/// Next, the return value is a `Box` of the generic `Fn` type which returnsour desired output type `V`. We have to box
-/// the return value because we donot know how much size it could occupy on the stack (and thus allocate tothe heap).
-/// Finally, we implement trait bounds on F and G, specifying howthe chain should compose: F takes an Fv to a Gv, and
-/// then G takes a Gv toV. In the body of the function, we returned a _moved_ value of g applied tof of x, because
-/// otherwise the value go out of scope (and die) at the end ofthe function.
+/// Next, the return value is a `Box` of the generic `Fn` type that takes an Fv to a V. We have to _box_ the return
+/// value because we do not know how much size it could occupy on the stack (thus we allocate to the heap). Finally, we
+/// implement trait bounds on F and G, specifying how the chain should compose: F takes an Fv to a Gv, and then G takes a
+/// Gv to V.
 ///
 /// Phew! 😅
 ///
