@@ -83,7 +83,7 @@ pub fn id<T>(x: T) -> T {
 ///
 /// # Overview
 /// Our definition of composition may appear confusing at first, but let's break it down. We start by defining generic
-/// types for our two input functions. These are`F` and `G`, respectively. These have a `'static`lifetime because we
+/// types for our two input functions. These are`F` and `G`, respectively. These have a `'static` lifetime because we
 /// have to ensure that the borrow checker does not let these types out of scope before computation has finished. Next,
 /// we have types `Fv` and `Gv`, which represent the types for the return values for each of the functions F and G.
 /// Finally, we have our output type `V`, which is the result we want. We pass the functions F and G as parameters `f`
