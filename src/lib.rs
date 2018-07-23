@@ -30,6 +30,10 @@
 //! > I would say yes. We know that web pages have something akin to an identity morphism: its URI/URL. And links between pages
 //! may be composable (a link from site A to B can, through the redirect protocol, map to a third side C).
 //!
+//! Update: After a conversation with a few people in the #categorytheory channel on FP Slack, care must be
+//! taken to specify that we mean the morphism that defines the whole REST or HATEOAS command cycle for a link in this example; not the
+//! links themselves. So the correct answer to Bartosz's question depends on what we mean by what `links` are.
+//!
 //! _Is Facebook a category, with people as objects and friendships as morphisms?_
 //!
 //! > Not really, because social relationships cannot always compose. Friend C, friend of B, is not necessarily friend of A.
