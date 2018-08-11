@@ -145,3 +145,32 @@ where
 {
     Box::new(move |x| g(f(x)))
 }
+
+/// a polymorphic function from any type to the unit type
+pub fn unit<T>(_t: T) -> () {
+    ()
+}
+
+/// a generic internal container for use with the memoize trait
+pub struct memoized {
+    // TODO: figure out the repr for this... maybe a hashmap?
+}
+
+/// behaves as a container for function memoziation
+pub trait memoize<F, T> {
+    /// encapsulates the given function `f`
+    fn func(f: F) -> T;
+}
+
+/// Rather than overly explain how memoize works with prose, let's just look at the challenge question that motivates us
+/// to write it:
+/// > Define a higher-order function (or a function object) memoize in your favorite language. This function takes a
+/// pure function f as an argument and returns a function that behaves almost exactly like f, except that it only
+/// calls the original function once for every argument, stores the result internally, and subsequently returns this
+/// stored result every time it’s called with the same argument. You can tell the memoized function from the original
+/// by watch- ing its performance. For instance, try to memoize a function that takes a long time to evaluate. You’ll
+/// have to wait for the result the first time you call it, but on subsequent calls, with the same argument, you should
+/// get the result immediately.
+pub fn memoize() {
+    unimplemented!()
+}

@@ -5,7 +5,7 @@
 
 ![a category](https://upload.wikimedia.org/wikipedia/commons/f/ff/Category_SVG.svg) ![ferris](https://f001.backblazeb2.com/file/dks-public/ferris.png)
 
-## [Get Started](https://docs.rs/ctrs)
+## 👉  [Get Started](https://docs.rs/ctrs)
 
 I intend for each minor version to roughly correspond to one added chapter of documentation. I won't bump the major version
 until I get to the second Milewski course, and later the third, etc.
