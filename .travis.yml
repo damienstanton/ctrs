@@ -11,3 +11,7 @@ matrix:
   fast_finish: true
 
 cache: cargo
+
+branches:
+    only:
+    - master
