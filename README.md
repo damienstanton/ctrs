@@ -12,9 +12,6 @@ until I get to the second Milewski course, and later the third, etc.
 
 Note: This crate is more like a journal or notebook than a functional library; Import at your own discretion.
 
-© 2018 Damien Stanton
+© 2019 Damien Stanton
 
 See LICENSE for details.
-
-
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/white_img.png)](https://www.buymeacoffee.com/damienstanton)
