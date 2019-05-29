@@ -1,7 +1,7 @@
 # Category Theory in Rust
-[![Build Status](https://travis-ci.org/damienstanton/ctrs.svg?branch=master)](https://travis-ci.org/damienstanton/ctrs)
+[![Build Status](https://circleci.com/gh/damienstanton/ctrs.svg?style=svg)](https://circleci.com/gh/damienstanton/ctrs)
 [![Crates.io](https://img.shields.io/crates/v/ctrs.svg)](https://crates.io/crates/ctrs)
-[![Docs.rs](https://docs.rs/ctrs/badge.svg)](https://docs.rs/ctrs)
+[![Docs.rs](https://docs.rs/ctrs/badge.svg?version=1.0.2)](https://docs.rs/ctrs)
 
 ![a category](https://upload.wikimedia.org/wikipedia/commons/f/ff/Category_SVG.svg) ![ferris](https://f001.backblazeb2.com/file/dks-public/ferris.png)
 
