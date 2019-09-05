@@ -1,3 +1,5 @@
+Please note: this repo is now archived. While the prospect of exploring CT in Rust is still interesting, I'd prefer to focus on more practical tools in the ecosystem.
+
 # Category Theory in Rust
 [![Build Status](https://circleci.com/gh/damienstanton/ctrs.svg?style=svg)](https://circleci.com/gh/damienstanton/ctrs)
 [![Crates.io](https://img.shields.io/crates/v/ctrs.svg)](https://crates.io/crates/ctrs)
